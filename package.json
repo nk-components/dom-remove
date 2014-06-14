@@ -1,0 +1,31 @@
+{
+  "name": "dom-remove",
+  "version": "0.0.0",
+  "description": "Remove an Element from the DOM",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "dom",
+    "remove",
+    "parent"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Antoine Lehurt",
+    "email": "hello@kewah.com",
+    "url": "http://kewah.com",
+    "twitter": "https://twitter.com/kewah"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nk-components/dom-remove"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "component": "^1.0.0-rc5",
+    "component-test": "^0.1.3",
+    "rewatch": "^0.2.2"
+  }
+}

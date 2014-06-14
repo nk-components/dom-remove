@@ -1,0 +1,21 @@
+{
+  "name": "dom-remove",
+  "repo": "nk-components/dom-remove",
+  "description": "Remove an Element from the DOM",
+  "version": "0.0.0",
+  "keywords": [
+    "dom",
+    "remove",
+    "parent"
+  ],
+  "license": "MIT",
+  "development": {
+    "component/assert": "*"
+  },
+  "dependencies": {
+    "kewah/for-each": "~0.1.1"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}
