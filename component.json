@@ -13,7 +13,7 @@
     "component/assert": "*"
   },
   "dependencies": {
-    "kewah/for-each": "~0.1.1"
+    "yields/every": "^1.0.0"
   },
   "scripts": [
     "index.js"

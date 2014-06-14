@@ -30,7 +30,7 @@ describe('dom-remove', function() {
     var el = createEl();
     assert.equal(parent.children.length, 1);
 
-    remove(el);
+    assert.equal(remove(el), true);
     assert.equal(parent.children.length, 0);
 
     done();
@@ -39,14 +39,22 @@ describe('dom-remove', function() {
   it('should remove a list of elements', function(done) {
     assert.equal(parent.children.length, 0);
 
-    var els = [createEl(), createEl(), createEl()];
+    createEl();
+    createEl();
+    createEl();
+
     assert.equal(parent.children.length, 3);
 
-    remove(els);
+    var els = parent.querySelectorAll('div');
+    assert.equal(remove(els), false);
+
+    els = Array.prototype.slice.call(els);
+    assert.equal(remove(els), true);
     assert.equal(parent.children.length, 0);
 
     done();
   });
+
 });
 
 
