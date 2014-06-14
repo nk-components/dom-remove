@@ -2,7 +2,7 @@
   "name": "dom-remove",
   "repo": "nk-components/dom-remove",
   "description": "Remove an Element from the DOM",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "keywords": [
     "dom",
     "remove",
