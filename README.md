@@ -4,6 +4,11 @@ Remove an Element from the DOM
 
 ## Installation
 
+With [npm](http://npmjs.org) do:
+
+```bash
+$ npm install dom-remove --save
+```
 Install with [component(1)](http://component.io):
 
 ```bash
