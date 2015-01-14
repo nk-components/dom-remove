@@ -1,4 +1,4 @@
-# dom-remove
+# dom-remove [![Build Status](https://travis-ci.org/nk-components/array-remove.svg)](https://travis-ci.org/nk-components/array-remove)
 
 Remove an Element from the DOM
 
