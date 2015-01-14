@@ -1,6 +1,6 @@
 {
   "name": "dom-remove",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Remove an Element from the DOM",
   "main": "index.js",
   "scripts": {
